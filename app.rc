@@ -1,0 +1,7 @@
+#define ID_PNG_CMD 1
+#define ID_PNG_CMD_MASK 2
+
+#ifdef RC_INVOKED
+ID_PNG_CMD PNG "img/cmd.png"
+ID_PNG_CMD_MASK PNG "img/cmd.mask.png"
+#endif
